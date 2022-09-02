@@ -1,0 +1,14 @@
+.wrapper h2{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 80px;
+}
+.wrapper{
+    font-weight: 300;
+    font-size: 50px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Rubik', sans-serif; 
+}

@@ -1,0 +1,37 @@
+body {
+    background-color: #e5560e;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5560e 37px ), repeating-linear-gradient( #ff601055, #ff6010 );
+}
+
+h2 {
+  text-transform: uppercase;
+  color: white;
+  animation: 1s slide-right 1s forwards;
+  transform: translateX(-120%);
+  text-align: center;
+}
+
+@keyframes slide-right {
+  to {
+    transform: translateX(0);
+  }
+}
+
+p {
+  text-align: justify;
+  text-justify: distribute;
+  color: white;
+  font-size: 20px;
+  padding: 2% 0;
+  line-height: 30px;
+  text-align: justify;
+  animation: 3s slide-right 2s forwards;
+  transform: translateX(-130%);
+}
+
+@keyframes slide-right {
+  to {
+    transform: translateX(0);
+  }
+}
