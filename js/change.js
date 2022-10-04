@@ -1,0 +1,1 @@
+const cards=document.querySelector("main.cards");window.addEventListener("scroll",()=>{window.scrollY>=750?cards.classList.add("nullObject"):cards.classList.remove("nullObject")});
